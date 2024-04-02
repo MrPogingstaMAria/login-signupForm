@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Re-Meet</title>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: sans-serif;
+        line-height: 1.5;
+        min-height: 50vh;
+        background-color: #d87b09;
+        background-image: url('bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        margin: 0;
+        background-position: center;
+        
+        
+
+    }
+
+    .container {
+        max-width: 1000px; 
+        margin: 50px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        min-width: 100;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        
+        
+        
+    }
+    .form-group {
+        margin-bottom: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .form-group label {
+        display: block;
+        width: 45%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+        color: #000000;
+        font-weight: bold;
+        
+    }
+    .form-group input {
+        display: block;
+        width: 45%;
+        margin-bottom: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #020202;
+        border-radius: 5px;
+        
+
+    }
+    .form-group button {
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        background-color: #f97901;
+        width: 100%;
+        font-size: 16px;
+       s
+    }
+   
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Sign Up Form</h2>
+    <form action="#" method="POST">
+
+        <div class="form-group">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter Your FirstName" required>
+           
+           
+        </div>
+
+        <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Your Lastname" required>
+        </div>
+        <div class="form-group">
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" name="trip-start" value="2024-03-24"min="2020-01-01"max="2020-01-31"  required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter Your Address" required>
+        </div>
+        <div class="form-group">
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Your User name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email address" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Re-Type Password:</label>
+            <input type="password" id="password" name="password" placeholder="Re-Type your Password" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

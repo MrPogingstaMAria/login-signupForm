@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<style>/*style.css*/
+
+    body {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background-color: #e9cba7;
+        background-image: url('bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        margin: 0;
+        background-position: right center;
+
+      
+       
+        
+    }
+    
+    .main {
+        background-color: #f6e2cd; 
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(235, 228, 228, 0.2);
+        padding: 10px 20px;
+        transition: transform 0.2s;
+        width: 500px;
+        text-align:center;
+        
+    }
+    
+    h1 {
+        color: #f97901;
+    }
+    
+    label {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+        color: #797878;
+        font-weight: bold;
+    }
+    
+    
+    input {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #020202;
+        border-radius: 5px;
+    }
+    
+    button {
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none;
+        color: rgb(121, 116, 116);
+        cursor: pointer;
+        background-color: #f97901;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .wrap {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+    
+
+</style>
+
+
+
+
+
+<head>
+	<title>Re-Meet</title>
+	<link rel="stylesheet"
+		href="style.css">
+</head>
+
+<img src="Screenshot (166).png" alt="Re-Meet" width="100" height="100">
+
+<body>
+	<div class="main">
+		<h1>Login to Your Account</h1>
+		<h3>Login using social media netwrok</h3>
+
+        <img src="Screenshot (162).png" width="50" height="50">
+        <img src="Screenshot (164).png" width="50" height="50">
+        <img src="Screenshot (163).png" width="50" height="50">
+        
+		<form action="">
+			<label for="first">
+				Username:
+			</label>
+			<input type="text"
+				id="first"
+				name="first"
+				placeholder="Enter your Username" required>
+
+			<label for="password">
+				Password:
+			</label>
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your password" required>
+
+			<div class="wrap">
+				<button type="Log in"
+						onclick="solve()">
+					Log in
+				</button>
+			</div>
+		</form>
+        <a href="#"
+			style="text-decoration: none;color:#2200ff;">
+				Forget Password
+			</a>
+		<p style="color: #8c8686;">New User? 
+			<a href="#"
+			style="text-decoration: none;">
+				Create an account
+			</a>
+		</p>
+	</div>
+</body>
+
+</html>
